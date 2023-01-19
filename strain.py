@@ -9,8 +9,6 @@ import logging
 import itertools
 import inspect
 
-WAREHOUSE_JSON_FILE_FORMAT_VERSION = '1.1'
-
 
 class GlobalTabbingFilter(logging.Filter):
     delta = 0
